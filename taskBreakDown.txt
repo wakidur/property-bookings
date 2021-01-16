@@ -12,6 +12,6 @@
 
 3. Implement a relational database (I will user NoSQL database like MongoDB and Mongoose diver for ORM). (backend) ---- 1Hours
 4. Create a simple CRUD operation for the user to upload new property for listing and others. (backend) ------- 5Hours
-5. backend-based search. (backend) 4Hours
-5. Implement pagination for listing property. (backend) --------- 30 Minute
+5. backend-based search. (backend) 30minute
+5. Implement pagination for listing property. (backend) --------- 30 minute
 6. Integrate your API with the ReactJS front end that you developed -------------- 5Hours
