@@ -14,11 +14,9 @@ const Header = () => {
 
   return (
     <>
-      <nav className='navbar navbar-expand-lg navbar-light '>
+      <nav className='navbar navbar-expand-lg navbar-light bg-white' aria-label='Main navigation'>
         <div className='container-fluid'>
-          <Link className='navbar-brand' to='/'>
-            Property Booking
-          </Link>
+          <Link className='navbar-brand p-0 border-0' to='/'> Property Booking </Link>
           <button
             className='navbar-toggler'
             type='button'
@@ -79,9 +77,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <nav className='navbar navbar-expand-lg navbar-light shadow-sm'>
-        <div className='container-fluid'>
-          <nav className='nav'>
+        <div className='container-fluid bg-white shadow-sm'>
+          <nav className="nav nav-underline" aria-label="Secondary navigation">
             <Link className='nav-link active ps-0' to='/'>
               For You
             </Link>
@@ -94,9 +91,8 @@ const Header = () => {
             <Link className='nav-link text-muted' to='/'>
               Places
             </Link>
-          </nav>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </>
   );
 };
